@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import UploadBox from "../components/UploadBox";
 import JobCell from "../components/JobCell";
 import Header from "../components/Header";
-import { Link } from "react-router-dom";
 import "../assets/Home.css";
 
 // Define the Job type
