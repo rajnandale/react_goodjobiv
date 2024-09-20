@@ -13,7 +13,7 @@ const JobRoles: React.FC = () => {
 
   useEffect(() => {
     // Fetch job roles from the backend endpoint
-    fetch(`${import.meta.env.VITE_API_URL}/jobRoles`)
+    fetch(import.meta.env.VITE_API_URL+'/jobRoles')
       .then((response) => response.json())
       .then((data: JobRole[]) => setJobRoles(data))
       .catch((error) => console.error('Error fetching job roles:', error));
