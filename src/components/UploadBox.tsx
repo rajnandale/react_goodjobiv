@@ -30,8 +30,11 @@ const UploadBox: React.FC<UploadBoxProps> = ({ setSearchedJobs }) => {
       setUploadSuccess(false); // Reset success state
     }
   };
+  const apiUrl = 'https://nodeapi-goodjob.vercel.app'; // Ensure this is correctly accessed
 
-  const apiUrl = import.meta.env.VITE_API_URL; // Ensure this is correctly accessed
+
+//   const apiUrl = import.meta.env.VITE_API_URL; // Ensure this is correctly accessed
+
 
   // Handle form submission for file upload
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {

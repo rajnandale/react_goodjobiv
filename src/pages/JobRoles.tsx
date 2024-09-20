@@ -10,7 +10,9 @@ interface JobRole {
 
 const JobRoles: React.FC = () => {
   const [jobRoles, setJobRoles] = useState<JobRole[]>([]);
-  const apiUrl = import.meta.env.VITE_API_URL; // Ensure this is correctly accessed
+  const apiUrl = 'https://nodeapi-goodjob.vercel.app'; // Ensure this is correctly accessed
+//   const apiUrl = import.meta.env.VITE_API_URL; // Ensure this is correctly accessed
+
 
 
   useEffect(() => {
