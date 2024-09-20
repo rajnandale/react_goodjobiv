@@ -1,12 +1,22 @@
-import { RouterProvider } from 'react-router-dom';
-import router from './routes/routes';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+// import Header from './components/Header';
+import JobRoles from './pages/JobRoles';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Home from './pages/Home'; // Import your Home page
 
-function App() {
+const App: React.FC = () => {
   return (
     <>
-      <RouterProvider router={router} />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/jobRoles" element={<JobRoles />} />
+      </Routes>
     </>
   );
-}
+};
 
 export default App;

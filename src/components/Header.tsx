@@ -1,5 +1,5 @@
-// import React from 'react';
-
+import React from 'react';
+import { Link } from 'react-router-dom';
 import '../assets/Header.css';
 
 const Header: React.FC = () => {
@@ -7,10 +7,10 @@ const Header: React.FC = () => {
     <>
       <header id="typed-header">GOOD_JOB</header>
       <nav>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/contact">Contact</a>
-        <a href="/jobRoles">JobRoles</a>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
+        <Link to="/jobRoles">JobRoles</Link>
       </nav>
     </>
   );
