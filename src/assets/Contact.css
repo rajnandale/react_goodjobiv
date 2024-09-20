@@ -1,0 +1,66 @@
+.contact-us-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .contact-us-intro {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .contact-us-intro h1 {
+    font-size: 2.5em;
+    color: #0a66c2; /* LinkedIn blue */
+  }
+  
+  .contact-methods {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .contact-method {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .contact-icon {
+    font-size: 3em; /* Adjust size as needed */
+    color: #0a66c2; /* LinkedIn blue */
+    margin-bottom: 15px;
+  }
+  
+  .contact-info h2 {
+    color: #0a66c2; /* LinkedIn blue */
+    margin-bottom: 10px;
+  }
+  
+  .contact-info a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contact-method {
+      width: 90%;
+    }
+  }
+  

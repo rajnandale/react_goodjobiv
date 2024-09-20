@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3f2fd;
+    color: #333;
+  }
+  
+  
+  
+  footer {
+    background-color: #0a66c2;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  #drop_zone {
+    border: 2px dashed #ccc;
+    width: 300px;
+    height: 200px;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 200px;
+  }
+  
+  #drop_zone.hover {
+    background-color: #e0e0e0;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  .upload-btn {
+    background-color: #0a66c2;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: calc(100% - 40px);
+    max-width: 300px;
+    margin: 20px auto;
+    cursor: pointer;
+  }
+  
+  .upload-btn:hover {
+    background-color: blue;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  .job-cell {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    background-color: #fff;
+  }
+  
