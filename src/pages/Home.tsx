@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import UploadBox from "../components/UploadBox";
 import JobCell from "../components/JobCell";
 import Header from "../components/Header";
