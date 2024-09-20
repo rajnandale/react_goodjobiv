@@ -31,6 +31,8 @@ const UploadBox: React.FC<UploadBoxProps> = ({ setSearchedJobs }) => {
     }
   };
 
+  const apiUrl = import.meta.env.VITE_API_URL; // Ensure this is correctly accessed
+
   // Handle form submission for file upload
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -40,7 +42,7 @@ const UploadBox: React.FC<UploadBoxProps> = ({ setSearchedJobs }) => {
       formData.append("file", file); // Use 'file' instead of 'files'
 
       try {
-        const response = await fetch(import.meta.env.VITE_API_URL + '/upload', {
+        const response = await fetch(`${apiUrl}/upload`, {
           method: "POST",
           body: formData,
         });

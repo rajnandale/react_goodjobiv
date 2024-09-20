@@ -10,10 +10,12 @@ interface JobRole {
 
 const JobRoles: React.FC = () => {
   const [jobRoles, setJobRoles] = useState<JobRole[]>([]);
+  const apiUrl = import.meta.env.VITE_API_URL; // Ensure this is correctly accessed
+
 
   useEffect(() => {
     // Fetch job roles from the backend endpoint
-    fetch(import.meta.env.VITE_API_URL+'/jobRoles')
+    fetch(`${apiUrl}/jobRoles`)
       .then((response) => response.json())
       .then((data: JobRole[]) => setJobRoles(data))
       .catch((error) => console.error('Error fetching job roles:', error));
