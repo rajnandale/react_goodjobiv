@@ -10,14 +10,14 @@ interface JobRole {
 
 const JobRoles: React.FC = () => {
   const [jobRoles, setJobRoles] = useState<JobRole[]>([]);
-  const apiUrl = 'https://nodeapi-goodjob.vercel.app'; // Ensure this is correctly accessed
-//   const apiUrl = import.meta.env.VITE_API_URL; // Ensure this is correctly accessed
+  // const apiUrl = 'https://nodeapi-goodjob.vercel.app'; // Ensure this is correctly accessed
+  const apiUrl = import.meta.env.VITE_API_URL; // Ensure this is correctly accessed
 
 
 
   useEffect(() => {
     // Fetch job roles from the backend endpoint
-    fetch(`${apiUrl}/jobRoles`)
+    fetch(`${apiUrl}/Roles`)
       .then((response) => response.json())
       .then((data: JobRole[]) => setJobRoles(data))
       .catch((error) => console.error('Error fetching job roles:', error));
