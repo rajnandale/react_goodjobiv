@@ -18,14 +18,9 @@ Explore the live version of the TypeScript repository: [reaactgoodjobiv.vercel.a
 
 ## 📸 Screenshots
 
-You can enhance your README by adding images or screenshots to provide a visual overview of the project! Below is an example of how to do that:
-
 ```markdown
 ![Homepage Screenshot](./screenshots/homepage.png)
 ```
-
-Simply save your images in a folder like `./screenshots/` within your repository and refer to them in the Markdown using the above format.
-
 ## ⚙️ Project Status
 
 This project is still **under development**. We’re continuously working on improving the features and functionality.
