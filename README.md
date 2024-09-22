@@ -17,10 +17,7 @@ This website suggests possible **job roles** by analyzing your resume. Simply up
 Explore the live version of the TypeScript repository: [reaactgoodjobiv.vercel.app](https://reaactgoodjobiv.vercel.app)
 
 ## 📸 Screenshots
-
-```markdown
 ![Homepage Screenshot](./screenshots/homepage.png)
-```
 ## ⚙️ Project Status
 
 This project is still **under development**. We’re continuously working on improving the features and functionality.
