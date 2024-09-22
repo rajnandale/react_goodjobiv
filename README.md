@@ -14,7 +14,7 @@ This website suggests possible **job roles** by analyzing your resume. Simply up
 
 ## 🌐 Live Demo
 
-Explore the live version of the TypeScript repository: [reaactgoodjobiv.vercel.app](https://reaactgoodjobiv.vercel.app)
+Explore the live version of the TypeScript repository: [reactgoodjobiv.vercel.app](https://reactgoodjobiv.vercel.app)
 
 ## 📸 Screenshots
 ![Homepage Screenshot](./screenshots/homepage.png)
