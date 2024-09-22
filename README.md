@@ -22,7 +22,6 @@ You can enhance your README by adding images or screenshots to provide a visual 
 
 ```markdown
 ![Homepage Screenshot](./screenshots/homepage.png)
-![Resume Upload](./screenshots/upload.png)
 ```
 
 Simply save your images in a folder like `./screenshots/` within your repository and refer to them in the Markdown using the above format.
