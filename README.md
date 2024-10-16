@@ -31,7 +31,9 @@ This project is open for contributions! If you'd like to enhance the project or 
 ## Challange time *
 
 we had kept some of existing issue as it is, if u are proficient enough to solve then dont forgot to send us "Pull Request"
+
 Challanges 1) Solves issue in About page where Image is loading
+
 2) Refreshing on About page makes session to stop
 
 ## 🛡️ Licensing & Usage
