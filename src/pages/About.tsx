@@ -7,7 +7,7 @@ const About: React.FC = () => {
     <div className="about-us-container">
       <Header />
       <section className="about-us-intro">
-        <img src="../assets/SwarajLogo.jpg" alt="Swaraj Software Solutions" className="about-us-image" />
+        <img src="/src/assets/SwarajLogo.jpg" alt="Swaraj Software Solutions" className="about-us-image" />
         <div className="about-us-text">
           <p>
             Welcome to Swaraj Software Solutions, an emerging leader in software development and AI-driven solutions.
